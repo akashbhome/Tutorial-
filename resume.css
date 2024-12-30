@@ -6,7 +6,7 @@
 }
 .main{
     width:80%;
-    height: 145vh;
+    flex-basis:content;
     margin:30px auto;
     background-color: aquamarine;
     border: black solid 1px ;
@@ -15,7 +15,6 @@
 }
 .left{
     width:35%;
-    height: 100%;
     background-image: linear-gradient(rgb(248, 47, 47),rgb(246, 86, 86),rgb(250, 126, 126),rgb(250, 178, 178));
     border:groove 0.5px;
     padding-left: 20px;
@@ -67,7 +66,6 @@ strong{
 
 .right{
     width:65%;
-    height:100%;
     background-color: rgb(229, 238, 246);
     padding-left: 25px;
 }
